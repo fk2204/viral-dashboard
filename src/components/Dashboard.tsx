@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Sparkles, Loader2, Newspaper, Zap, Crown, Heart, Cpu, Palette } from 'lucide-react';
+import { Sparkles, Loader2, Newspaper, Zap, Crown, Heart, Cpu, Palette, Gamepad2, Dumbbell, UtensilsCrossed, DollarSign, Music, HeartHandshake } from 'lucide-react';
 import { Generation, TrendData, ViralConcept } from '@/types';
 import ConceptCard from './ConceptCard';
 import TrendScanner from './TrendScanner';
@@ -15,9 +15,15 @@ const CATEGORY_INFO: Record<string, { label: string; icon: React.ElementType; de
   emotional: { label: 'Nostalgic Feels', icon: Heart, description: 'Common moments that hit different' },
   tech: { label: 'Future Tech', icon: Cpu, description: 'Daily life in year 2050' },
   cartoon: { label: 'Cartoon Chaos', icon: Palette, description: 'Looney Tunes meets real life' },
+  gaming: { label: 'Gaming', icon: Gamepad2, description: 'Esports, clips, and gaming culture' },
+  fitness: { label: 'Fitness', icon: Dumbbell, description: 'Workouts, transformations, gym life' },
+  food: { label: 'Food & Cooking', icon: UtensilsCrossed, description: 'Recipes, food hacks, taste tests' },
+  finance: { label: 'Finance', icon: DollarSign, description: 'Money tips, investing, side hustles' },
+  music: { label: 'Music', icon: Music, description: 'Songs, remixes, artist reactions' },
+  relationships: { label: 'Relationships', icon: HeartHandshake, description: 'Dating, love, couple content' },
 };
 
-const CATEGORY_ORDER = ['news', 'absurd', 'luxury', 'emotional', 'tech', 'cartoon'];
+const CATEGORY_ORDER = ['news', 'absurd', 'luxury', 'emotional', 'tech', 'cartoon', 'gaming', 'fitness', 'food', 'finance', 'music', 'relationships'];
 
 export default function Dashboard() {
   const [generation, setGeneration] = useState<Generation | null>(null);
@@ -100,8 +106,8 @@ export default function Dashboard() {
               </span>
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-zinc-400">
-              Generate 18 viral TikTok concepts (3 per category) based on everyday moments,
-              with Sora & Veo 3 prompts ready to use.
+              Generate viral TikTok & YouTube Shorts concepts across 12 niches,
+              with Sora & Veo 3 prompts, virality scores, and monetization estimates.
             </p>
 
             <div className="mt-8 flex items-center justify-center gap-4">
@@ -216,6 +222,13 @@ export default function Dashboard() {
                           category === 'luxury' ? 'bg-amber-500/20' :
                           category === 'emotional' ? 'bg-blue-500/20' :
                           category === 'tech' ? 'bg-emerald-500/20' :
+                          category === 'cartoon' ? 'bg-pink-500/20' :
+                          category === 'gaming' ? 'bg-violet-500/20' :
+                          category === 'fitness' ? 'bg-orange-500/20' :
+                          category === 'food' ? 'bg-yellow-500/20' :
+                          category === 'finance' ? 'bg-green-500/20' :
+                          category === 'music' ? 'bg-indigo-500/20' :
+                          category === 'relationships' ? 'bg-rose-500/20' :
                           'bg-pink-500/20'
                         }`}>
                           <Icon className={`h-5 w-5 ${
@@ -224,6 +237,13 @@ export default function Dashboard() {
                             category === 'luxury' ? 'text-amber-400' :
                             category === 'emotional' ? 'text-blue-400' :
                             category === 'tech' ? 'text-emerald-400' :
+                            category === 'cartoon' ? 'text-pink-400' :
+                            category === 'gaming' ? 'text-violet-400' :
+                            category === 'fitness' ? 'text-orange-400' :
+                            category === 'food' ? 'text-yellow-400' :
+                            category === 'finance' ? 'text-green-400' :
+                            category === 'music' ? 'text-indigo-400' :
+                            category === 'relationships' ? 'text-rose-400' :
                             'text-pink-400'
                           }`} />
                         </div>
@@ -255,7 +275,7 @@ export default function Dashboard() {
                 <Sparkles className="h-16 w-16 text-zinc-700 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold text-white mb-2">Ready to go viral?</h3>
                 <p className="text-zinc-500 max-w-md mx-auto mb-6">
-                  Generate 18 unique viral concepts across 6 categories, all based on relatable
+                  Generate unique viral concepts across 12 categories, all based on relatable
                   everyday moments with professional Sora and Veo 3 prompts.
                 </p>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-lg mx-auto">

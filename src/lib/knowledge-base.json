@@ -1,0 +1,1544 @@
+{
+  "hooks": [
+    {
+      "id": "hook_001",
+      "formula": "Wait until you see what {topic} does at the end",
+      "category": ["all"],
+      "effectiveness": 92,
+      "examples": ["Wait until you see what this AI does at the end", "Wait until you see what luxury brands do at the end"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_002",
+      "formula": "POV: you just found out about {topic}",
+      "category": ["all"],
+      "effectiveness": 88,
+      "examples": ["POV: you just found out about this tech hack", "POV: you just found out about this news story"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_003",
+      "formula": "Everyone is wrong about {topic}. Here is why.",
+      "category": ["news", "tech"],
+      "effectiveness": 85,
+      "examples": ["Everyone is wrong about AI safety. Here is why.", "Everyone is wrong about this news story. Here is why."],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_004",
+      "formula": "STOP SCROLLING. {topic} just changed everything.",
+      "category": ["news", "tech"],
+      "effectiveness": 90,
+      "examples": ["STOP SCROLLING. This AI breakthrough just changed everything.", "STOP SCROLLING. This news just changed everything."],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_005",
+      "formula": "3 things about {topic} that will blow your mind",
+      "category": ["all"],
+      "effectiveness": 87,
+      "examples": ["3 things about this tech that will blow your mind", "3 things about luxury cars that will blow your mind"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_006",
+      "formula": "{topic} before vs after hits different",
+      "category": ["all"],
+      "effectiveness": 84,
+      "examples": ["AI art before vs after hits different", "This makeover before vs after hits different"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_007",
+      "formula": "The story of {topic} nobody tells you",
+      "category": ["news", "emotional"],
+      "effectiveness": 86,
+      "examples": ["The story of this brand nobody tells you", "The story of this tech founder nobody tells you"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_008",
+      "formula": "Why is nobody talking about {topic}?",
+      "category": ["all"],
+      "effectiveness": 89,
+      "examples": ["Why is nobody talking about this AI feature?", "Why is nobody talking about this news story?"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_009",
+      "formula": "I can't believe {topic} is real",
+      "category": ["absurd", "tech"],
+      "effectiveness": 83,
+      "examples": ["I can't believe this AI feature is real", "I can't believe this luxury item is real"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_010",
+      "formula": "Only 1% of people know this about {topic}",
+      "category": ["all"],
+      "effectiveness": 88,
+      "examples": ["Only 1% of people know this about AI", "Only 1% of people know this about luxury brands"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_011",
+      "formula": "This {topic} trend is getting out of hand",
+      "category": ["news", "absurd"],
+      "effectiveness": 81,
+      "examples": ["This AI trend is getting out of hand", "This luxury trend is getting out of hand"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_012",
+      "formula": "If you use {topic}, you need to see this",
+      "category": ["tech", "all"],
+      "effectiveness": 85,
+      "examples": ["If you use ChatGPT, you need to see this", "If you use this app, you need to see this"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_013",
+      "formula": "{topic} is not what you think",
+      "category": ["all"],
+      "effectiveness": 82,
+      "examples": ["This news story is not what you think", "This luxury brand is not what you think"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_014",
+      "formula": "POV: {topic} but make it unhinged",
+      "category": ["absurd", "cartoon"],
+      "effectiveness": 80,
+      "examples": ["POV: tech bro but make it unhinged", "POV: luxury shopping but make it unhinged"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_015",
+      "formula": "The {topic} nobody asked for but everyone needs",
+      "category": ["absurd", "tech"],
+      "effectiveness": 79,
+      "examples": ["The AI feature nobody asked for but everyone needs", "The luxury item nobody asked for but everyone needs"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_016",
+      "formula": "Tell me you love {topic} without telling me you love {topic}",
+      "category": ["all"],
+      "effectiveness": 78,
+      "examples": ["Tell me you love tech without telling me you love tech", "Tell me you love luxury without telling me you love luxury"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_017",
+      "formula": "When {topic} hits different at 3am",
+      "category": ["absurd", "emotional"],
+      "effectiveness": 77,
+      "examples": ["When this news hits different at 3am", "When this memory hits different at 3am"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_018",
+      "formula": "The {topic} iceberg explained",
+      "category": ["all"],
+      "effectiveness": 86,
+      "examples": ["The AI iceberg explained", "The luxury brand iceberg explained"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_019",
+      "formula": "You're using {topic} wrong. Here's how to fix it.",
+      "category": ["tech", "all"],
+      "effectiveness": 84,
+      "examples": ["You're using AI wrong. Here's how to fix it.", "You're using this app wrong. Here's how to fix it."],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_020",
+      "formula": "This {topic} gave me chills",
+      "category": ["emotional", "news"],
+      "effectiveness": 75,
+      "examples": ["This story gave me chills", "This moment gave me chills"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_021",
+      "formula": "Like and subscribe if {topic} blew your mind",
+      "category": ["all"],
+      "effectiveness": 72,
+      "examples": ["Like and subscribe if this AI blew your mind", "Like and subscribe if this fact blew your mind"],
+      "source": "viral-research-2026",
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_022",
+      "formula": "Watch till the end for {topic}",
+      "category": ["all"],
+      "effectiveness": 74,
+      "examples": ["Watch till the end for the plot twist", "Watch till the end for the reveal"],
+      "source": "viral-research-2026",
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_023",
+      "formula": "The {topic} era is here and I'm here for it",
+      "category": ["all"],
+      "effectiveness": 76,
+      "examples": ["The AI era is here and I'm here for it", "The comeback era is here and I'm here for it"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_024",
+      "formula": "No one prepared me for {topic}",
+      "category": ["emotional", "absurd"],
+      "effectiveness": 73,
+      "examples": ["No one prepared me for this moment", "No one prepared me for this reality"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_025",
+      "formula": "{topic} is living rent free in my head",
+      "category": ["all"],
+      "effectiveness": 71,
+      "examples": ["This song is living rent free in my head", "This moment is living rent free in my head"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_026",
+      "formula": "The way {topic} understood the assignment",
+      "category": ["all"],
+      "effectiveness": 70,
+      "examples": ["The way this AI understood the assignment", "The way this brand understood the assignment"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_027",
+      "formula": "This is my Roman Empire: {topic}",
+      "category": ["all"],
+      "effectiveness": 69,
+      "examples": ["This is my Roman Empire: this tech moment", "This is my Roman Empire: this memory"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_028",
+      "formula": "{topic} ate and left no crumbs",
+      "category": ["all"],
+      "effectiveness": 68,
+      "examples": ["This performance ate and left no crumbs", "This design ate and left no crumbs"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_029",
+      "formula": "Not {topic} being my new personality trait",
+      "category": ["absurd", "emotional"],
+      "effectiveness": 67,
+      "examples": ["Not this show being my new personality trait", "Not this trend being my new personality trait"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_030",
+      "formula": "When {topic} gives main character energy",
+      "category": ["all"],
+      "effectiveness": 66,
+      "examples": ["When this person gives main character energy", "When this moment gives main character energy"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_031",
+      "formula": "{topic} is very demure, very mindful",
+      "category": ["absurd", "luxury"],
+      "effectiveness": 65,
+      "examples": ["This aesthetic is very demure, very mindful", "This approach is very demure, very mindful"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_032",
+      "formula": "Don't skip this: {topic} explained in 60 seconds",
+      "category": ["all"],
+      "effectiveness": 80,
+      "examples": ["Don't skip this: AI explained in 60 seconds", "Don't skip this: this news explained in 60 seconds"],
+      "source": "viral-research-2026",
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_033",
+      "formula": "Smash that like button if {topic} is your vibe",
+      "category": ["all"],
+      "effectiveness": 64,
+      "examples": ["Smash that like button if this is your vibe", "Smash that like button if you relate"],
+      "source": "viral-research-2026",
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_034",
+      "formula": "The {topic} plot twist no one saw coming",
+      "category": ["news", "emotional"],
+      "effectiveness": 82,
+      "examples": ["The election plot twist no one saw coming", "The tech announcement plot twist no one saw coming"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_035",
+      "formula": "{topic} just went from 0 to 100 real quick",
+      "category": ["news", "absurd"],
+      "effectiveness": 78,
+      "examples": ["This situation just went from 0 to 100 real quick", "This trend just went from 0 to 100 real quick"],
+      "source": "viral-research-2026",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_036",
+      "formula": "POV: {topic} in your first ranked match",
+      "category": ["gaming"],
+      "effectiveness": 82,
+      "examples": ["POV: Valorant patch in your first ranked match"],
+      "source": "Gaming TikTok trends",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_037",
+      "formula": "The {topic} play that ended careers",
+      "category": ["gaming"],
+      "effectiveness": 78,
+      "examples": ["The CS2 clutch play that ended careers"],
+      "source": "Gaming clips culture",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_038",
+      "formula": "Day 1 vs Day 90 of {topic}. The glow up is real.",
+      "category": ["fitness"],
+      "effectiveness": 88,
+      "examples": ["Day 1 vs Day 90 of calisthenics. The glow up is real."],
+      "source": "Fitness transformation content",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_039",
+      "formula": "If you skip {topic} you are not serious about gains",
+      "category": ["fitness"],
+      "effectiveness": 75,
+      "examples": ["If you skip leg day you are not serious about gains"],
+      "source": "Gym culture TikTok",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_040",
+      "formula": "This {topic} recipe just changed my whole life",
+      "category": ["food"],
+      "effectiveness": 85,
+      "examples": ["This pasta recipe just changed my whole life"],
+      "source": "Food TikTok",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_041",
+      "formula": "If Gordon Ramsay saw this {topic} he would cry",
+      "category": ["food"],
+      "effectiveness": 80,
+      "examples": ["If Gordon Ramsay saw this steak he would cry"],
+      "source": "Food review culture",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_042",
+      "formula": "{topic} is literally free money and nobody is paying attention",
+      "category": ["finance"],
+      "effectiveness": 90,
+      "examples": ["High yield savings is literally free money and nobody is paying attention"],
+      "source": "FinTok trends",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_043",
+      "formula": "The {topic} strategy that turned $100 into passive income",
+      "category": ["finance"],
+      "effectiveness": 86,
+      "examples": ["The dividend strategy that turned $100 into passive income"],
+      "source": "Finance YouTube Shorts",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_044",
+      "formula": "The way {topic} just gave me chills. Put this on repeat.",
+      "category": ["music"],
+      "effectiveness": 83,
+      "examples": ["The way this chorus just gave me chills. Put this on repeat."],
+      "source": "Music TikTok",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_045",
+      "formula": "{topic} is the song of 2026 and nobody can change my mind",
+      "category": ["music"],
+      "effectiveness": 77,
+      "examples": ["This track is the song of 2026 and nobody can change my mind"],
+      "source": "Music discovery trends",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_046",
+      "formula": "The {topic} red flag nobody talks about in relationships",
+      "category": ["relationships"],
+      "effectiveness": 87,
+      "examples": ["The texting red flag nobody talks about in relationships"],
+      "source": "Relationship TikTok",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "hook_047",
+      "formula": "POV: {topic} with your person and everything just makes sense",
+      "category": ["relationships"],
+      "effectiveness": 84,
+      "examples": ["POV: Sunday morning with your person and everything just makes sense"],
+      "source": "Couple content trends",
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "no cap",
+      "usage": "Use to emphasize truth or seriousness: 'This AI is revolutionary, no cap'",
+      "relevance": 95,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "on god",
+      "usage": "Similar to no cap, emphasizes truth: 'This is the best tech I've seen, on god'",
+      "relevance": 92,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "periodt",
+      "usage": "End of discussion, final statement: 'This is the future, periodt'",
+      "relevance": 88,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "ate",
+      "usage": "Did something exceptionally well: 'This design ate'",
+      "relevance": 90,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "slay",
+      "usage": "To do something amazingly: 'This brand is slaying the game'",
+      "relevance": 86,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "unhinged",
+      "usage": "Wild, chaotic, unpredictable: 'This announcement was unhinged'",
+      "relevance": 93,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "brainrot",
+      "usage": "Content that's addictive but mindless: 'This is pure brainrot and I love it'",
+      "relevance": 91,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "delulu",
+      "usage": "Delusional but in a fun way: 'Am I delulu or is this actually genius?'",
+      "relevance": 87,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "rizz",
+      "usage": "Charisma or charm: 'This AI has rizz'",
+      "relevance": 84,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "era",
+      "usage": "A phase or period: 'We're in our tech era now'",
+      "relevance": 89,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "ick",
+      "usage": "Something that turns you off: 'This UI gives me the ick'",
+      "relevance": 82,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "bop",
+      "usage": "A great song or beat: 'This soundtrack is a bop'",
+      "relevance": 80,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "hits different",
+      "usage": "Has a unique or special impact: 'This moment hits different'",
+      "relevance": 94,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "understood the assignment",
+      "usage": "Did exactly what was needed: 'This brand understood the assignment'",
+      "relevance": 85,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "main character",
+      "usage": "Someone who stands out or is the focus: 'Main character energy right here'",
+      "relevance": 83,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "roman empire",
+      "usage": "Something you think about constantly: 'This is my roman empire'",
+      "relevance": 81,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "girl dinner",
+      "usage": "Random assortment of snacks as a meal: 'This content is girl dinner'",
+      "relevance": 75,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "very demure",
+      "usage": "Modest, classy, reserved: 'Very demure, very mindful approach'",
+      "relevance": 78,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "smash that like",
+      "usage": "Call to action for engagement: 'Smash that like button if you agree'",
+      "relevance": 76,
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "drop a comment",
+      "usage": "Encourage viewer interaction: 'Drop a comment with your thoughts'",
+      "relevance": 74,
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "hit subscribe",
+      "usage": "Call to subscribe: 'Hit subscribe for more content like this'",
+      "relevance": 72,
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "don't skip this",
+      "usage": "Create urgency: 'Don't skip this, it's important'",
+      "relevance": 79,
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "watch till the end",
+      "usage": "Keep viewers engaged: 'Watch till the end for the surprise'",
+      "relevance": 77,
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "viral",
+      "usage": "Something spreading widely: 'This just went viral'",
+      "relevance": 96,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "blew up",
+      "usage": "Became very popular suddenly: 'This video blew up overnight'",
+      "relevance": 91,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "went crazy",
+      "usage": "Became very popular or impressive: 'The internet went crazy over this'",
+      "relevance": 88,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "cooked",
+      "usage": "Did something really well: 'They really cooked with this one'",
+      "relevance": 92,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "bussin",
+      "usage": "Really good, delicious: 'This content is bussin'",
+      "relevance": 85,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "fire",
+      "usage": "Excellent, amazing: 'This edit is fire'",
+      "relevance": 87,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "lowkey",
+      "usage": "Somewhat, kind of: 'This is lowkey genius'",
+      "relevance": 90,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "highkey",
+      "usage": "Very much, obviously: 'This is highkey the best thing ever'",
+      "relevance": 86,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "rent free",
+      "usage": "Living in your mind constantly: 'This lives rent free in my head'",
+      "relevance": 84,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "living in my head",
+      "usage": "Can't stop thinking about it: 'This moment is living in my head'",
+      "relevance": 82,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "drip",
+      "usage": "Stylish outfit or appearance: 'Check out this luxury drip'",
+      "relevance": 80,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "bet",
+      "usage": "Agreement or confirmation: 'You want this? Bet.'",
+      "relevance": 89,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "vibe check",
+      "usage": "Assessing the mood or energy: 'Let's do a vibe check on this trend'",
+      "relevance": 81,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "sheesh",
+      "usage": "Expression of amazement: 'Sheesh, this is insane'",
+      "relevance": 83,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "it's giving",
+      "usage": "It has the vibe of: 'It's giving luxury, it's giving expensive'",
+      "relevance": 88,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "the way",
+      "usage": "Emphasize something notable: 'The way this video has me crying'",
+      "relevance": 85,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "not me",
+      "usage": "Admitting to something relatable: 'Not me watching this 10 times'",
+      "relevance": 79,
+      "platforms": ["tiktok"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "sent me",
+      "usage": "Made you laugh hard: 'This absolutely sent me'",
+      "relevance": 78,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "feral",
+      "usage": "Wild, out of control behavior: 'The comments are going feral'",
+      "relevance": 82,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "touch grass",
+      "usage": "Go outside, disconnect: 'Time to touch grass after this'",
+      "relevance": 77,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "chronically online",
+      "usage": "Spending too much time on the internet: 'This is peak chronically online behavior'",
+      "relevance": 84,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "locked in",
+      "usage": "Fully focused and committed: 'I'm locked in on this project'",
+      "relevance": 86,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "GG",
+      "usage": "Good game — use at end of gaming content",
+      "relevance": 85,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "clutch",
+      "usage": "Making a crucial play under pressure",
+      "relevance": 82,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "gains",
+      "usage": "Muscle/fitness progress",
+      "relevance": 80,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "PR",
+      "usage": "Personal record at the gym",
+      "relevance": 78,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "money shot",
+      "usage": "The perfect food photography moment",
+      "relevance": 75,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "passive income",
+      "usage": "Money earned without active work",
+      "relevance": 90,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "compound",
+      "usage": "Compound interest/growth effect",
+      "relevance": 82,
+      "platforms": ["youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "banger",
+      "usage": "An exceptionally good song/track",
+      "relevance": 86,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "slaps",
+      "usage": "Music that sounds incredibly good",
+      "relevance": 84,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "green flag",
+      "usage": "Positive trait in a partner",
+      "relevance": 88,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "term": "the ick",
+      "usage": "Something that suddenly turns you off",
+      "relevance": 85,
+      "platforms": ["tiktok", "youtube-shorts"],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    }
+  ],
+  "styles": [
+    {
+      "category": "news",
+      "tips": [
+        "Lead with the most shocking or unexpected element",
+        "Use contrarian takes to stand out from mainstream coverage",
+        "Add personal reaction or hot take to make it relatable",
+        "Include why this matters to the viewer directly",
+        "Use current slang to make serious topics accessible"
+      ],
+      "bestPractices": [
+        "Fact-check before posting to maintain credibility",
+        "Include context in text overlay for quick understanding",
+        "Use dynamic cuts to maintain energy",
+        "End with a question to drive comments",
+        "Reference trending topics to ride algorithmic waves"
+      ],
+      "avoidList": [
+        "Being too formal or academic in tone",
+        "Overly long explanations without visual interest",
+        "Ignoring the emotional angle of the story",
+        "Making content too niche without broader appeal",
+        "Forgetting call-to-action for engagement"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use trending sounds related to news/reaction",
+          "Add on-screen text for key facts",
+          "Keep under 60 seconds for maximum retention",
+          "Use duet feature to react to other news coverage"
+        ],
+        "youtubeShorts": [
+          "Include 'breaking news' or 'latest update' in hook",
+          "Add subscribe reminder at the end",
+          "Use chapters/timestamps in description",
+          "Encourage viewers to watch full video on main channel"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "absurd",
+      "tips": [
+        "Lean into the chaos and unpredictability",
+        "Mix unrelated concepts for comedic effect",
+        "Use exaggeration to amplify the absurdity",
+        "Rapid-fire editing keeps energy high",
+        "Self-aware humor about being unhinged"
+      ],
+      "bestPractices": [
+        "Commit fully to the bit, no half measures",
+        "Use unexpected sound effects and visual gags",
+        "Layer multiple absurd elements for compound humor",
+        "Reference internet culture and memes",
+        "Make it rewatchable with hidden details"
+      ],
+      "avoidList": [
+        "Being offensive or punching down",
+        "Making it too random without any structure",
+        "Overthinking or overexplaining the joke",
+        "Using outdated meme formats",
+        "Making it too long and losing momentum"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use TikTok-native effects like green screen creatively",
+          "Leverage trending sounds in unexpected ways",
+          "Duet with serious content to create contrast",
+          "Use text-to-speech for comedic timing"
+        ],
+        "youtubeShorts": [
+          "Quick cuts every 1-2 seconds for chaos",
+          "Use jump cuts to amplify manic energy",
+          "Layer multiple audio tracks for sensory overload",
+          "End with a freeze frame on the most absurd moment"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "luxury",
+      "tips": [
+        "Showcase exclusivity and aspiration",
+        "Use high production value and smooth transitions",
+        "Focus on details and craftsmanship",
+        "Create desire through scarcity and status",
+        "Balance aspiration with relatability"
+      ],
+      "bestPractices": [
+        "Use cinematic camera movements and lighting",
+        "Highlight textures, materials, and quality",
+        "Include price points to create shock value",
+        "Show behind-the-scenes or unboxing moments",
+        "Use sophisticated music or ambient sounds"
+      ],
+      "avoidList": [
+        "Being too pretentious or unapproachable",
+        "Ignoring the audience's price sensitivity",
+        "Using shaky camera work or poor lighting",
+        "Forgetting to show the emotional appeal",
+        "Making it feel like an advertisement"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use 'luxury haul' or 'luxury lifestyle' hashtags",
+          "Show contrast between luxury and everyday items",
+          "Include 'get ready with me' luxury format",
+          "Use slow-mo for dramatic reveals"
+        ],
+        "youtubeShorts": [
+          "Create mini-documentaries about luxury brands",
+          "Include 'watch till the end' for price reveals",
+          "Use comparison format: luxury vs budget",
+          "Add links to full reviews in description"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "emotional",
+      "tips": [
+        "Build emotional arc within short timeframe",
+        "Use music to amplify emotional beats",
+        "Show vulnerability and authenticity",
+        "Create relatable moments viewers recognize",
+        "End with catharsis or resolution"
+      ],
+      "bestPractices": [
+        "Start with a hook that creates empathy",
+        "Use close-ups to capture genuine emotion",
+        "Include personal story or testimonial",
+        "Layer emotional music strategically",
+        "Give viewers permission to feel"
+      ],
+      "avoidList": [
+        "Being manipulative or exploitative",
+        "Oversharing without purpose",
+        "Using sad content as clickbait",
+        "Ignoring content warnings for heavy topics",
+        "Making it depressing without hope"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use emotional storytelling sounds",
+          "Include text overlay for accessibility",
+          "Use photo montage for memory/nostalgia content",
+          "Leverage duet feature for shared experiences"
+        ],
+        "youtubeShorts": [
+          "Use slower pacing for emotional moments",
+          "Include chapter markers for story beats",
+          "Add 'if you relate' call-to-action in comments",
+          "Use fade transitions for reflective tone"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "tech",
+      "tips": [
+        "Simplify complex concepts for broad audience",
+        "Show practical applications and use cases",
+        "Create sense of discovery and excitement",
+        "Use comparisons to everyday objects",
+        "Balance technical accuracy with accessibility"
+      ],
+      "bestPractices": [
+        "Lead with the most impressive feature",
+        "Use screen recordings with annotations",
+        "Include before/after demonstrations",
+        "Explain why it matters to average person",
+        "Add futuristic music or sound design"
+      ],
+      "avoidList": [
+        "Using too much jargon without explanation",
+        "Being overly technical and boring",
+        "Ignoring the 'so what' factor",
+        "Making false or exaggerated claims",
+        "Forgetting to show real-world impact"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use 'tech hack' or 'AI' trending hashtags",
+          "Show split-screen comparisons",
+          "Include 'wait for it' moments for reveals",
+          "Use fast-paced editing for tech demos"
+        ],
+        "youtubeShorts": [
+          "Include step-by-step tutorials in short format",
+          "Use picture-in-picture for reactions",
+          "Add 'link in description' for tools/resources",
+          "Create series of related tech tips"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "cartoon",
+      "tips": [
+        "Exaggerate expressions and movements",
+        "Use bright, saturated colors and bold outlines",
+        "Create character-driven narratives",
+        "Add sound effects for comedic timing",
+        "Make it visually dynamic and energetic"
+      ],
+      "bestPractices": [
+        "Use animation principles: squash, stretch, anticipation",
+        "Include visual gags in every frame",
+        "Create memorable character designs",
+        "Use looping animations for replay value",
+        "Add Easter eggs for rewatchability"
+      ],
+      "avoidList": [
+        "Making animation too slow or static",
+        "Using dull colors that don't pop on mobile",
+        "Overcomplicating the story",
+        "Forgetting to add personality to characters",
+        "Making text too small to read"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use cartoon filters and effects creatively",
+          "Leverage animation trends and challenges",
+          "Add voiceover with exaggerated character voices",
+          "Use transitions that match cartoon physics"
+        ],
+        "youtubeShorts": [
+          "Create episodic content with recurring characters",
+          "Use consistent art style for brand recognition",
+          "Add end cards with character poses",
+          "Include bloopers or behind-the-scenes animation"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "gaming",
+      "tips": [
+        "Show high-stakes moments and clutch plays",
+        "Use game audio and comms for authenticity",
+        "Focus on relatable gaming experiences",
+        "Capture reaction to insane moments",
+        "Create FOMO with exclusive content or updates"
+      ],
+      "bestPractices": [
+        "Lead with the most hype gameplay moment",
+        "Include rank/level context for credibility",
+        "Use fast cuts during action sequences",
+        "Add on-screen callouts for key plays",
+        "Mix pro gameplay with relatable fails"
+      ],
+      "avoidList": [
+        "Using generic gameplay without context",
+        "Ignoring the emotional stakes of ranked",
+        "Making content too niche for one game only",
+        "Forgetting to show player reactions",
+        "Using outdated meta or patches"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use trending gaming sounds and memes",
+          "Show POV perspective for immersion",
+          "Include text overlay for play-by-play",
+          "Leverage duet feature for reaction content"
+        ],
+        "youtubeShorts": [
+          "Add rank progression in thumbnails",
+          "Include game title and context in hook",
+          "Use highlight reel format for montages",
+          "Link to full gameplay in description"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "fitness",
+      "tips": [
+        "Show visible transformation and progress",
+        "Use motivational energy and music",
+        "Demonstrate proper form and technique",
+        "Create accountability and challenge culture",
+        "Balance aspiration with accessibility"
+      ],
+      "bestPractices": [
+        "Lead with before/after or progress shots",
+        "Include workout details and rep counts",
+        "Show both success and struggle moments",
+        "Use slow-mo for form demonstration",
+        "Add personal stats and milestones"
+      ],
+      "avoidList": [
+        "Promoting unhealthy or extreme methods",
+        "Ignoring safety and proper form",
+        "Being preachy or judgmental",
+        "Using misleading transformation timelines",
+        "Forgetting to show the work behind results"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use gym culture sounds and trends",
+          "Show day-in-the-life workout routine",
+          "Include transformation timeline overlays",
+          "Leverage challenge and accountability trends"
+        ],
+        "youtubeShorts": [
+          "Create workout tutorial series",
+          "Use split-screen for form comparison",
+          "Add PR celebration moments",
+          "Include link to full workout plan"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "food",
+      "tips": [
+        "Capture the perfect money shot closeup",
+        "Use ASMR sounds and satisfying textures",
+        "Show the cooking process with quick cuts",
+        "Create desire through presentation",
+        "Make recipes accessible and simple"
+      ],
+      "bestPractices": [
+        "Lead with the final plated dish",
+        "Use overhead and closeup angles",
+        "Include ingredient list in text overlay",
+        "Show hands working for relatability",
+        "Add sizzle sounds and visual appeal"
+      ],
+      "avoidList": [
+        "Making process too complicated or long",
+        "Poor lighting that dulls the food",
+        "Ignoring dietary restrictions without warning",
+        "Using clickbait without delivering",
+        "Forgetting to show the actual eating moment"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use trending food sounds and remixes",
+          "Show quick recipe in under 60 seconds",
+          "Include taste test reaction at end",
+          "Leverage food trends and challenges"
+        ],
+        "youtubeShorts": [
+          "Create recipe series with consistent format",
+          "Use time-lapse for longer cooking",
+          "Add full recipe in description",
+          "Include chef tips and hacks"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "finance",
+      "tips": [
+        "Simplify complex concepts with examples",
+        "Show real numbers and tangible results",
+        "Create urgency with market timing",
+        "Use contrast between poor and rich mindset",
+        "Balance education with entertainment"
+      ],
+      "bestPractices": [
+        "Lead with dollar amounts or percentages",
+        "Use charts and graphs for visual proof",
+        "Include disclaimers for credibility",
+        "Show personal results or case studies",
+        "Add actionable steps viewers can take"
+      ],
+      "avoidList": [
+        "Making unrealistic income promises",
+        "Being too technical without explanation",
+        "Ignoring risk and downsides",
+        "Promoting sketchy schemes or scams",
+        "Forgetting proper financial disclaimers"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use money mindset and hustle sounds",
+          "Show income screenshots with context",
+          "Include passive income strategy reveals",
+          "Leverage FinTok trends and debates"
+        ],
+        "youtubeShorts": [
+          "Create educational series on investing",
+          "Use comparison format: good vs bad money habits",
+          "Add links to resources in description",
+          "Include subscriber call-to-action for more tips"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "music",
+      "tips": [
+        "Capture emotional reaction to the music",
+        "Use high-quality audio and visuals",
+        "Show discovery moments and reactions",
+        "Create nostalgia or new trend energy",
+        "Make it shareable for music lovers"
+      ],
+      "bestPractices": [
+        "Lead with the best drop or chorus",
+        "Use lyric overlays for singalong potential",
+        "Include artist credit and song title",
+        "Show genuine emotional response",
+        "Add visual effects that match the vibe"
+      ],
+      "avoidList": [
+        "Using copyrighted audio without permission",
+        "Poor audio quality that ruins the song",
+        "Ignoring the artist or song credit",
+        "Making it about you instead of the music",
+        "Forgetting to link the full song"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use the actual song audio from TikTok library",
+          "Show reaction and vibing to the track",
+          "Include music discovery or recommendation format",
+          "Leverage trending sounds and remixes"
+        ],
+        "youtubeShorts": [
+          "Create music review or reaction series",
+          "Use visualizer effects for audio",
+          "Add Spotify or Apple Music links",
+          "Include genre and mood tags"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "category": "relationships",
+      "tips": [
+        "Show relatable relationship moments",
+        "Use humor to discuss serious topics",
+        "Create green flag vs red flag debates",
+        "Balance single and couple perspectives",
+        "Make it conversation-worthy for comments"
+      ],
+      "bestPractices": [
+        "Lead with controversial or relatable take",
+        "Use couple POV or solo commentary format",
+        "Include real examples and scenarios",
+        "Show vulnerability and authenticity",
+        "Add question or poll for engagement"
+      ],
+      "avoidList": [
+        "Being toxic or promoting unhealthy dynamics",
+        "Ignoring diverse relationship types",
+        "Making it too personal or oversharing",
+        "Using relationship content as clickbait",
+        "Forgetting to respect privacy of partners"
+      ],
+      "platforms": {
+        "tiktok": [
+          "Use couple trends and challenges",
+          "Show POV relationship scenarios",
+          "Include red flag/green flag format",
+          "Leverage relationship advice sounds"
+        ],
+        "youtubeShorts": [
+          "Create relationship advice series",
+          "Use storytelling format for experiences",
+          "Add polls or questions in comments",
+          "Include dating tips and communication hacks"
+        ]
+      },
+      "updatedAt": "2026-02-04T00:00:00.000Z"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern_001",
+      "name": "hook-tension-payoff",
+      "structure": [
+        "Open with shocking hook or question",
+        "Build tension with 'but wait' moment",
+        "Add complication or twist",
+        "Deliver satisfying payoff or answer",
+        "End with call-to-action"
+      ],
+      "bestFor": ["news", "tech", "emotional", "all"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 92,
+      "examples": [
+        "Hook: 'This AI can do WHAT?' → Tension: 'Watch what happens next' → Payoff: 'It just solved a 10-year problem'",
+        "Hook: 'Nobody saw this coming' → Tension: 'The reveal is insane' → Payoff: 'Here's what actually happened'"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_002",
+      "name": "before-after",
+      "structure": [
+        "Show the 'before' state clearly",
+        "Tease the transformation",
+        "Reveal the 'after' state",
+        "Explain what changed",
+        "Encourage sharing/commenting"
+      ],
+      "bestFor": ["tech", "emotional", "luxury", "all"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 88,
+      "examples": [
+        "Old tech vs new tech side-by-side",
+        "Person's reaction before and after learning news",
+        "Product before and after upgrade"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_003",
+      "name": "countdown-listicle",
+      "structure": [
+        "Announce the list topic and number",
+        "Start with least impressive item",
+        "Build up to most impressive",
+        "Save best for last as hook",
+        "Recap or call-to-action"
+      ],
+      "bestFor": ["all"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 85,
+      "examples": [
+        "'3 things about AI that will blow your mind'",
+        "'5 luxury items that are actually worth it'",
+        "'Top 4 news stories everyone missed'"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_004",
+      "name": "reaction",
+      "structure": [
+        "Show stimulus (video, news, product)",
+        "Capture genuine initial reaction",
+        "Add commentary or explanation",
+        "Share final thoughts or rating",
+        "Ask viewers for their reaction"
+      ],
+      "bestFor": ["news", "absurd", "emotional", "all"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 90,
+      "examples": [
+        "Reacting to breaking news announcement",
+        "First time seeing new tech feature",
+        "Responding to viral moment"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_005",
+      "name": "pov-narrative",
+      "structure": [
+        "Set up POV scenario with text or voiceover",
+        "Act out the situation",
+        "Add twist or complication",
+        "Resolve or deliver punchline",
+        "Make it relatable/shareable"
+      ],
+      "bestFor": ["absurd", "emotional", "cartoon", "all"],
+      "platforms": ["tiktok"],
+      "effectiveness": 86,
+      "examples": [
+        "'POV: You just discovered this tech hack'",
+        "'POV: Finding out this news in real time'",
+        "'POV: When luxury shopping goes wrong'"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_006",
+      "name": "story-time",
+      "structure": [
+        "Hook with most dramatic moment",
+        "Rewind to beginning of story",
+        "Build narrative with key details",
+        "Return to dramatic moment",
+        "Conclude with lesson or punchline"
+      ],
+      "bestFor": ["news", "emotional", "absurd"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 87,
+      "examples": [
+        "Story of how this tech was created",
+        "Personal story related to news event",
+        "Behind-the-scenes luxury brand story"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_007",
+      "name": "comparison",
+      "structure": [
+        "Introduce two things being compared",
+        "Show first option with pros/cons",
+        "Show second option with pros/cons",
+        "Reveal surprising winner or tie",
+        "Ask viewers which they prefer"
+      ],
+      "bestFor": ["tech", "luxury", "news", "all"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 84,
+      "examples": [
+        "Old AI vs new AI capabilities",
+        "Luxury brand vs budget alternative",
+        "Two perspectives on same news story"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_008",
+      "name": "transformation",
+      "structure": [
+        "Show initial unimpressive state",
+        "Tease what's about to happen",
+        "Show transformation in progress",
+        "Reveal final impressive result",
+        "Share how to achieve it"
+      ],
+      "bestFor": ["tech", "emotional", "cartoon", "all"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 89,
+      "examples": [
+        "Tech tutorial showing skill progression",
+        "Emotional journey from struggle to success",
+        "Creative process from sketch to final animation"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_009",
+      "name": "mystery-reveal",
+      "structure": [
+        "Pose intriguing question or mystery",
+        "Build suspense with clues",
+        "Add false lead or misdirection",
+        "Reveal surprising answer",
+        "Explain why it matters"
+      ],
+      "bestFor": ["news", "tech", "absurd"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 91,
+      "examples": [
+        "'Why is nobody talking about this feature?'",
+        "'The truth behind this viral moment'",
+        "'What really happened in this news story'"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    },
+    {
+      "id": "pattern_010",
+      "name": "tutorial-hack",
+      "structure": [
+        "Show common problem or inefficiency",
+        "Introduce the hack or solution",
+        "Demonstrate step-by-step",
+        "Show final result",
+        "Encourage trying and sharing"
+      ],
+      "bestFor": ["tech", "luxury", "all"],
+      "platforms": ["tiktok", "youtube-shorts"],
+      "effectiveness": 83,
+      "examples": [
+        "Hidden AI feature most people don't know",
+        "Luxury shopping hack to save money",
+        "Tech tip to boost productivity"
+      ],
+      "addedAt": "2026-02-04T00:00:00.000Z"
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-02-04T00:00:00.000Z",
+    "version": 1,
+    "totalLearningCycles": 0
+  }
+}

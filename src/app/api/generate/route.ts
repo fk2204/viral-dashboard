@@ -6,8 +6,8 @@ import { Generation } from '@/types';
 
 export async function POST() {
   try {
-    // Generate trend data
-    const trends = generateTrendData();
+    // Generate trend data (now async - fetches from APIs)
+    const trends = await generateTrendData();
 
     // Generate 5 diverse concepts
     const concepts = generateFiveConcepts(trends);
