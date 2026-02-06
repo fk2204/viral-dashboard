@@ -1,0 +1,14 @@
+[
+  {
+    "id": "e3e46516-d944-4a92-bd96-eb6b442785dd",
+    "category": "absurd",
+    "platform": "tiktok",
+    "pattern": "absurd-tiktok-accurate",
+    "evidenceCount": 1,
+    "impact": "neutral",
+    "recommendation": "No adjustments needed. Monitor for drift over time.",
+    "appliedToScoring": false,
+    "discoveredAt": "2026-02-06T00:45:19.272Z",
+    "lastSeenAt": "2026-02-06T00:45:19.272Z"
+  }
+]

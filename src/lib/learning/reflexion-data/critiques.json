@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ee99b735-e01b-4ff2-a812-8dfd6f11b8c3",
+    "conceptId": "ca5818f9-048b-488f-9489-fce7f9709aff",
+    "performanceGap": {
+      "conceptId": "ca5818f9-048b-488f-9489-fce7f9709aff",
+      "conceptTitle": "Duet reaction chain exploding But The Simulation Glitched",
+      "category": "absurd",
+      "platform": "tiktok",
+      "predictedVirality": 100,
+      "actualEngagement": 20,
+      "actualViralityScore": 100,
+      "gap": 0,
+      "gapPercentage": 0,
+      "direction": "accurate"
+    },
+    "critique": "Prediction was accurate within acceptable margin. Continue current approach.",
+    "hypothesizedReasons": [
+      "Scoring algorithm is well-calibrated for this category/platform"
+    ],
+    "scoringIssues": [],
+    "adjustmentPlan": "No adjustments needed. Monitor for drift over time.",
+    "confidenceLevel": "high",
+    "createdAt": "2026-02-06T00:45:19.270Z"
+  }
+]

@@ -6,6 +6,7 @@ export interface ScriptSegment {
 }
 
 export type Category = 'news' | 'absurd' | 'luxury' | 'emotional' | 'tech' | 'cartoon' | 'gaming' | 'fitness' | 'food' | 'finance' | 'music' | 'relationships';
+export type Platform = 'tiktok' | 'youtube-shorts' | 'instagram-reels';
 
 export interface ViralConcept {
   id: string;
@@ -129,7 +130,7 @@ export interface PerformanceFeedback {
   conceptId: string;
   conceptTitle: string;
   category: Category;
-  platform: 'tiktok' | 'youtube-shorts';
+  platform: Platform;
   variantId?: string;     // which A/B variant was used
   metrics: {
     views: number;
@@ -156,4 +157,69 @@ export interface CategoryPerformanceStats {
     tiktok: { entries: number; avgEngagement: number };
     youtubeShorts: { entries: number; avgEngagement: number };
   };
+}
+
+// ============================================================
+// REFLEXION SYSTEM — Self-critique and autonomous learning
+// ============================================================
+
+export interface PerformanceGap {
+  conceptId: string;
+  conceptTitle: string;
+  category: Category;
+  platform: Platform;
+  predictedVirality: number;
+  actualEngagement: number;
+  actualViralityScore: number;
+  gap: number;
+  gapPercentage: number;
+  direction: 'over-predicted' | 'under-predicted' | 'accurate';
+}
+
+export interface SelfCritique {
+  id: string;
+  conceptId: string;
+  performanceGap: PerformanceGap;
+  critique: string;
+  hypothesizedReasons: string[];
+  scoringIssues: string[];
+  adjustmentPlan: string;
+  confidenceLevel: 'low' | 'medium' | 'high';
+  createdAt: string;
+  appliedAt?: string;
+}
+
+export interface ReflexionInsight {
+  id: string;
+  category: Category;
+  platform: Platform;
+  pattern: string;
+  evidenceCount: number;
+  impact: 'positive' | 'negative' | 'neutral';
+  recommendation: string;
+  appliedToScoring: boolean;
+  discoveredAt: string;
+  lastSeenAt: string;
+}
+
+export interface ScoringAdjustment {
+  id: string;
+  category: Category;
+  adjustmentType: 'category-weight' | 'hook-effectiveness' | 'platform-multiplier' | 'recency-boost';
+  oldValue: number;
+  newValue: number;
+  reason: string;
+  critiqueId: string;
+  appliedAt: string;
+}
+
+export interface ReflexionStats {
+  totalCritiques: number;
+  totalAdjustments: number;
+  totalInsights: number;
+  accuracyImprovement: number;
+  lastReflexionRun: string;
+  avgGap: number;
+  overPredictionRate: number;
+  underPredictionRate: number;
 }

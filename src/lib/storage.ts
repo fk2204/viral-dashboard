@@ -1,12 +1,22 @@
 import Dexie, { type EntityTable } from 'dexie';
-import { Generation } from '@/types';
+import { Generation, SelfCritique, ReflexionInsight, ScoringAdjustment } from '@/types';
 
 const db = new Dexie('ViralDashboard') as Dexie & {
   generations: EntityTable<Generation, 'id'>;
+  critiques: EntityTable<SelfCritique, 'id'>;
+  insights: EntityTable<ReflexionInsight, 'id'>;
+  adjustments: EntityTable<ScoringAdjustment, 'id'>;
 };
 
 db.version(1).stores({
   generations: 'id, date, isFavorite',
+});
+
+db.version(2).stores({
+  generations: 'id, date, isFavorite',
+  critiques: 'id, conceptId, createdAt, appliedAt',
+  insights: 'id, category, platform, discoveredAt, appliedToScoring',
+  adjustments: 'id, category, adjustmentType, appliedAt, critiqueId',
 });
 
 export async function saveGeneration(generation: Generation): Promise<void> {
@@ -107,6 +117,78 @@ export async function getAnalyticsData(): Promise<{
     categoryBreakdown,
     trendFrequency,
     dailyGenerations,
+  };
+}
+
+// ============================================================
+// REFLEXION SYSTEM STORAGE
+// ============================================================
+
+export async function saveCritique(critique: SelfCritique): Promise<void> {
+  await db.critiques.put(critique);
+}
+
+export async function getCritiques(limit: number = 50): Promise<SelfCritique[]> {
+  return db.critiques.orderBy('createdAt').reverse().limit(limit).toArray();
+}
+
+export async function getCritiquesByConcept(conceptId: string): Promise<SelfCritique[]> {
+  return db.critiques.where('conceptId').equals(conceptId).toArray();
+}
+
+export async function getUnappliedCritiques(): Promise<SelfCritique[]> {
+  return db.critiques.filter(c => !c.appliedAt).toArray();
+}
+
+export async function saveInsight(insight: ReflexionInsight): Promise<void> {
+  await db.insights.put(insight);
+}
+
+export async function getInsights(category?: string): Promise<ReflexionInsight[]> {
+  if (category) {
+    return db.insights.where('category').equals(category).toArray();
+  }
+  return db.insights.orderBy('lastSeenAt').reverse().toArray();
+}
+
+export async function getInsightsByPattern(pattern: string): Promise<ReflexionInsight | undefined> {
+  return db.insights.filter(i => i.pattern === pattern).first();
+}
+
+export async function saveAdjustment(adjustment: ScoringAdjustment): Promise<void> {
+  await db.adjustments.put(adjustment);
+}
+
+export async function getAdjustments(limit: number = 50): Promise<ScoringAdjustment[]> {
+  return db.adjustments.orderBy('appliedAt').reverse().limit(limit).toArray();
+}
+
+export async function getAdjustmentsByCategory(category: string): Promise<ScoringAdjustment[]> {
+  return db.adjustments.where('category').equals(category).toArray();
+}
+
+export async function getReflexionStats(): Promise<{
+  totalCritiques: number;
+  totalInsights: number;
+  totalAdjustments: number;
+  recentCritiques: number;
+}> {
+  const totalCritiques = await db.critiques.count();
+  const totalInsights = await db.insights.count();
+  const totalAdjustments = await db.adjustments.count();
+
+  const weekAgo = new Date();
+  weekAgo.setDate(weekAgo.getDate() - 7);
+  const recentCritiques = await db.critiques
+    .where('createdAt')
+    .above(weekAgo.toISOString())
+    .count();
+
+  return {
+    totalCritiques,
+    totalInsights,
+    totalAdjustments,
+    recentCritiques,
   };
 }
 

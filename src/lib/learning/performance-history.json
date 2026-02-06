@@ -1,5 +1,56 @@
 {
-  "entries": [],
-  "categoryStats": {},
-  "lastUpdated": ""
+  "entries": [
+    {
+      "conceptId": "ca5818f9-048b-488f-9489-fce7f9709aff",
+      "conceptTitle": "Duet reaction chain exploding But The Simulation Glitched",
+      "category": "absurd",
+      "platform": "tiktok",
+      "metrics": {
+        "views": 10000,
+        "likes": 1500,
+        "comments": 200,
+        "shares": 300
+      },
+      "id": "f2758d6b-b8bc-4795-b3cf-efcf6543eda0",
+      "engagementRate": 20,
+      "reportedAt": "2026-02-06T00:45:19.157Z"
+    },
+    {
+      "conceptId": "ca5818f9-048b-488f-9489-fce7f9709aff",
+      "conceptTitle": "Duet reaction chain exploding But The Simulation Glitched",
+      "category": "absurd",
+      "platform": "tiktok",
+      "metrics": {
+        "views": 10000,
+        "likes": 1500,
+        "comments": 200,
+        "shares": 300
+      },
+      "id": "23cc0bb2-17a8-418c-b536-8d72252f58bf",
+      "engagementRate": 20,
+      "reportedAt": "2026-02-06T00:45:40.631Z"
+    }
+  ],
+  "categoryStats": {
+    "absurd": {
+      "totalEntries": 2,
+      "avgViews": 10000,
+      "avgEngagementRate": 20,
+      "bestPerforming": {
+        "conceptId": "ca5818f9-048b-488f-9489-fce7f9709aff",
+        "engagementRate": 20
+      },
+      "platformBreakdown": {
+        "tiktok": {
+          "entries": 2,
+          "avgEngagement": 20
+        },
+        "youtubeShorts": {
+          "entries": 0,
+          "avgEngagement": 0
+        }
+      }
+    }
+  },
+  "lastUpdated": "2026-02-06T00:45:40.631Z"
 }

@@ -1,10 +1,13 @@
-import { NextResponse } from 'next/server';
-import { generateTrendData } from '@/lib/trends';
-import { generateFiveConcepts } from '@/lib/generator';
-import { v4 as uuidv4 } from 'uuid';
-import { Generation } from '@/types';
+import { NextRequest, NextResponse } from "next/server";
+import { generateTrendData } from "@/lib/trends";
+import { generateFiveConcepts } from "@/lib/generator";
+import { v4 as uuidv4 } from "uuid";
+import { Generation } from "@/types";
+import { cacheGeneration } from "@/lib/concept-cache";
+import { handleApiError } from "@/lib/error-handler";
+import { withRateLimit } from "@/middleware/rate-limit";
 
-export async function POST() {
+async function handlePost(req: NextRequest) {
   try {
     // Generate trend data (now async - fetches from APIs)
     const trends = await generateTrendData();
@@ -21,12 +24,20 @@ export async function POST() {
       isFavorite: false,
     };
 
+    // Cache generation for reflexion analysis (48h TTL)
+    cacheGeneration(generation);
+
     return NextResponse.json(generation);
   } catch (error) {
-    console.error('Generation error:', error);
-    return NextResponse.json(
-      { error: 'Failed to generate concepts' },
-      { status: 500 }
+    const { error: errorMessage, statusCode, code } = handleApiError(
+      error,
+      "Failed to generate concepts",
+      { endpoint: "/api/generate", method: "POST" }
     );
+
+    return NextResponse.json({ error: errorMessage, code }, { status: statusCode });
   }
 }
+
+// Apply rate limiting: 10 requests per 10 seconds
+export const POST = withRateLimit(handlePost);

@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.73.0",
+    "@upstash/ratelimit": "^2.0.8",
+    "@upstash/redis": "^1.36.2",
     "dexie": "^4.3.0",
     "dexie-react-hooks": "^4.2.0",
     "lucide-react": "^0.563.0",

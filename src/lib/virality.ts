@@ -1,4 +1,5 @@
 import { ViralConcept, TrendData, PlatformVirality, Category } from '@/types';
+import { getAdjustedWeight } from './learning/reflexion';
 
 // ============================================================
 // PLATFORM VIRALITY SCORING ENGINE
@@ -70,9 +71,16 @@ export function scorePlatformVirality(
   // Recency multiplier
   const recencyBoost = trend.recency === 'today' ? 1.3 : trend.recency === 'yesterday' ? 1.1 : 0.9;
 
-  // Platform-specific calculations
-  const tiktokWeight = TIKTOK_CATEGORY_WEIGHTS[category] || 1.0;
-  const shortsWeight = SHORTS_CATEGORY_WEIGHTS[category] || 1.0;
+  // Platform-specific calculations with reflexion adjustments
+  const baseTiktokWeight = TIKTOK_CATEGORY_WEIGHTS[category] || 1.0;
+  const baseShortsWeight = SHORTS_CATEGORY_WEIGHTS[category] || 1.0;
+
+  // Apply reflexion learning adjustments
+  const tiktokAdjustment = getAdjustedWeight(category, 'tiktok');
+  const shortsAdjustment = getAdjustedWeight(category, 'youtube-shorts');
+
+  const tiktokWeight = baseTiktokWeight * tiktokAdjustment;
+  const shortsWeight = baseShortsWeight * shortsAdjustment;
 
   // Hook quality bonus (shorter hooks = better for TikTok)
   const hookBonus = concept.script.length >= 3 ? 1.1 : 1.0;

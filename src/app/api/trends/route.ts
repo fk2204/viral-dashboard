@@ -1,11 +1,13 @@
-import { NextResponse } from 'next/server';
-import { generateTrendData, scoreTrend, refreshTrends } from '@/lib/trends';
+import { NextRequest, NextResponse } from "next/server";
+import { generateTrendData, scoreTrend, refreshTrends } from "@/lib/trends";
+import { withRateLimit } from "@/middleware/rate-limit";
+import { handleApiError } from "@/lib/error-handler";
 
-export async function GET() {
+async function handleGet(req: NextRequest) {
   try {
     const trends = await generateTrendData();
 
-    const enrichedTrends = trends.map(trend => ({
+    const enrichedTrends = trends.map((trend) => ({
       ...trend,
       potentialLabel: scoreTrend(trend),
     }));
@@ -15,20 +17,22 @@ export async function GET() {
       fetchedAt: new Date().toISOString(),
     });
   } catch (error) {
-    console.error('Trends fetch error:', error);
-    return NextResponse.json(
-      { error: 'Failed to fetch trends' },
-      { status: 500 }
+    const { error: errorMessage, statusCode, code } = handleApiError(
+      error,
+      "Failed to fetch trends",
+      { endpoint: "/api/trends", method: "GET" }
     );
+
+    return NextResponse.json({ error: errorMessage, code }, { status: statusCode });
   }
 }
 
-export async function POST() {
+async function handlePost(req: NextRequest) {
   try {
     refreshTrends();
     const trends = await generateTrendData();
 
-    const enrichedTrends = trends.map(trend => ({
+    const enrichedTrends = trends.map((trend) => ({
       ...trend,
       potentialLabel: scoreTrend(trend),
     }));
@@ -39,10 +43,16 @@ export async function POST() {
       refreshed: true,
     });
   } catch (error) {
-    console.error('Trends refresh error:', error);
-    return NextResponse.json(
-      { error: 'Failed to refresh trends' },
-      { status: 500 }
+    const { error: errorMessage, statusCode, code } = handleApiError(
+      error,
+      "Failed to refresh trends",
+      { endpoint: "/api/trends", method: "POST" }
     );
+
+    return NextResponse.json({ error: errorMessage, code }, { status: statusCode });
   }
 }
+
+// Apply rate limiting: 10 requests per 10 seconds
+export const GET = withRateLimit(handleGet);
+export const POST = withRateLimit(handlePost);

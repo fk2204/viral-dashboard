@@ -14,6 +14,7 @@ export interface KnowledgeBase {
     lastUpdated: string;
     version: number;
     totalLearningCycles: number;
+    [key: string]: string | number; // Allow dynamic weight adjustments
   };
 }
 

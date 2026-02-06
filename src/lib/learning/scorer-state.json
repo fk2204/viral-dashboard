@@ -1,0 +1,302 @@
+{
+  "hookEMA": {
+    "hook_001": {
+      "ema": 92,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_002": {
+      "ema": 88,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_003": {
+      "ema": 85,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_004": {
+      "ema": 90,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_005": {
+      "ema": 87,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_006": {
+      "ema": 84,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_007": {
+      "ema": 86,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_008": {
+      "ema": 89,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_009": {
+      "ema": 83,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_010": {
+      "ema": 88,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_011": {
+      "ema": 81,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_012": {
+      "ema": 85,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_013": {
+      "ema": 82,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_014": {
+      "ema": 80,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_015": {
+      "ema": 79,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_016": {
+      "ema": 78,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_017": {
+      "ema": 77,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_018": {
+      "ema": 86,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_019": {
+      "ema": 84,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_020": {
+      "ema": 75,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_021": {
+      "ema": 72,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_022": {
+      "ema": 74,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_023": {
+      "ema": 76,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_024": {
+      "ema": 73,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_025": {
+      "ema": 71,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_026": {
+      "ema": 70,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_027": {
+      "ema": 69,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_028": {
+      "ema": 68,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_029": {
+      "ema": 67,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_030": {
+      "ema": 66,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_031": {
+      "ema": 65,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_032": {
+      "ema": 80,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_033": {
+      "ema": 64,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_034": {
+      "ema": 82,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_035": {
+      "ema": 78,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_036": {
+      "ema": 82,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_037": {
+      "ema": 78,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_038": {
+      "ema": 88,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_039": {
+      "ema": 75,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_040": {
+      "ema": 85,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_041": {
+      "ema": 80,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_042": {
+      "ema": 90,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_043": {
+      "ema": 86,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_044": {
+      "ema": 83,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_045": {
+      "ema": 77,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_046": {
+      "ema": 87,
+      "count": 0,
+      "lastUpdated": ""
+    },
+    "hook_047": {
+      "ema": 84,
+      "count": 0,
+      "lastUpdated": ""
+    }
+  },
+  "categoryEMA": {
+    "news": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "absurd": {
+      "tiktok": 75.5,
+      "shorts": 50,
+      "count": 2
+    },
+    "luxury": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "emotional": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "tech": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "cartoon": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "gaming": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "fitness": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "food": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "finance": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "music": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    },
+    "relationships": {
+      "tiktok": 50,
+      "shorts": 50,
+      "count": 0
+    }
+  },
+  "lastFullUpdate": "2026-02-06T00:47:52.064Z"
+}

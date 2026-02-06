@@ -3,471 +3,840 @@
     {
       "id": "hook_001",
       "formula": "Wait until you see what {topic} does at the end",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 92,
-      "examples": ["Wait until you see what this AI does at the end", "Wait until you see what luxury brands do at the end"],
+      "examples": [
+        "Wait until you see what this AI does at the end",
+        "Wait until you see what luxury brands do at the end"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_002",
       "formula": "POV: you just found out about {topic}",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 88,
-      "examples": ["POV: you just found out about this tech hack", "POV: you just found out about this news story"],
+      "examples": [
+        "POV: you just found out about this tech hack",
+        "POV: you just found out about this news story"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_003",
       "formula": "Everyone is wrong about {topic}. Here is why.",
-      "category": ["news", "tech"],
+      "category": [
+        "news",
+        "tech"
+      ],
       "effectiveness": 85,
-      "examples": ["Everyone is wrong about AI safety. Here is why.", "Everyone is wrong about this news story. Here is why."],
+      "examples": [
+        "Everyone is wrong about AI safety. Here is why.",
+        "Everyone is wrong about this news story. Here is why."
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_004",
       "formula": "STOP SCROLLING. {topic} just changed everything.",
-      "category": ["news", "tech"],
+      "category": [
+        "news",
+        "tech"
+      ],
       "effectiveness": 90,
-      "examples": ["STOP SCROLLING. This AI breakthrough just changed everything.", "STOP SCROLLING. This news just changed everything."],
+      "examples": [
+        "STOP SCROLLING. This AI breakthrough just changed everything.",
+        "STOP SCROLLING. This news just changed everything."
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_005",
       "formula": "3 things about {topic} that will blow your mind",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 87,
-      "examples": ["3 things about this tech that will blow your mind", "3 things about luxury cars that will blow your mind"],
+      "examples": [
+        "3 things about this tech that will blow your mind",
+        "3 things about luxury cars that will blow your mind"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_006",
       "formula": "{topic} before vs after hits different",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 84,
-      "examples": ["AI art before vs after hits different", "This makeover before vs after hits different"],
+      "examples": [
+        "AI art before vs after hits different",
+        "This makeover before vs after hits different"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_007",
       "formula": "The story of {topic} nobody tells you",
-      "category": ["news", "emotional"],
+      "category": [
+        "news",
+        "emotional"
+      ],
       "effectiveness": 86,
-      "examples": ["The story of this brand nobody tells you", "The story of this tech founder nobody tells you"],
+      "examples": [
+        "The story of this brand nobody tells you",
+        "The story of this tech founder nobody tells you"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_008",
       "formula": "Why is nobody talking about {topic}?",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 89,
-      "examples": ["Why is nobody talking about this AI feature?", "Why is nobody talking about this news story?"],
+      "examples": [
+        "Why is nobody talking about this AI feature?",
+        "Why is nobody talking about this news story?"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_009",
       "formula": "I can't believe {topic} is real",
-      "category": ["absurd", "tech"],
+      "category": [
+        "absurd",
+        "tech"
+      ],
       "effectiveness": 83,
-      "examples": ["I can't believe this AI feature is real", "I can't believe this luxury item is real"],
+      "examples": [
+        "I can't believe this AI feature is real",
+        "I can't believe this luxury item is real"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_010",
       "formula": "Only 1% of people know this about {topic}",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 88,
-      "examples": ["Only 1% of people know this about AI", "Only 1% of people know this about luxury brands"],
+      "examples": [
+        "Only 1% of people know this about AI",
+        "Only 1% of people know this about luxury brands"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_011",
       "formula": "This {topic} trend is getting out of hand",
-      "category": ["news", "absurd"],
+      "category": [
+        "news",
+        "absurd"
+      ],
       "effectiveness": 81,
-      "examples": ["This AI trend is getting out of hand", "This luxury trend is getting out of hand"],
+      "examples": [
+        "This AI trend is getting out of hand",
+        "This luxury trend is getting out of hand"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_012",
       "formula": "If you use {topic}, you need to see this",
-      "category": ["tech", "all"],
+      "category": [
+        "tech",
+        "all"
+      ],
       "effectiveness": 85,
-      "examples": ["If you use ChatGPT, you need to see this", "If you use this app, you need to see this"],
+      "examples": [
+        "If you use ChatGPT, you need to see this",
+        "If you use this app, you need to see this"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_013",
       "formula": "{topic} is not what you think",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 82,
-      "examples": ["This news story is not what you think", "This luxury brand is not what you think"],
+      "examples": [
+        "This news story is not what you think",
+        "This luxury brand is not what you think"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_014",
       "formula": "POV: {topic} but make it unhinged",
-      "category": ["absurd", "cartoon"],
+      "category": [
+        "absurd",
+        "cartoon"
+      ],
       "effectiveness": 80,
-      "examples": ["POV: tech bro but make it unhinged", "POV: luxury shopping but make it unhinged"],
+      "examples": [
+        "POV: tech bro but make it unhinged",
+        "POV: luxury shopping but make it unhinged"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_015",
       "formula": "The {topic} nobody asked for but everyone needs",
-      "category": ["absurd", "tech"],
+      "category": [
+        "absurd",
+        "tech"
+      ],
       "effectiveness": 79,
-      "examples": ["The AI feature nobody asked for but everyone needs", "The luxury item nobody asked for but everyone needs"],
+      "examples": [
+        "The AI feature nobody asked for but everyone needs",
+        "The luxury item nobody asked for but everyone needs"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_016",
       "formula": "Tell me you love {topic} without telling me you love {topic}",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 78,
-      "examples": ["Tell me you love tech without telling me you love tech", "Tell me you love luxury without telling me you love luxury"],
+      "examples": [
+        "Tell me you love tech without telling me you love tech",
+        "Tell me you love luxury without telling me you love luxury"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_017",
       "formula": "When {topic} hits different at 3am",
-      "category": ["absurd", "emotional"],
+      "category": [
+        "absurd",
+        "emotional"
+      ],
       "effectiveness": 77,
-      "examples": ["When this news hits different at 3am", "When this memory hits different at 3am"],
+      "examples": [
+        "When this news hits different at 3am",
+        "When this memory hits different at 3am"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_018",
       "formula": "The {topic} iceberg explained",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 86,
-      "examples": ["The AI iceberg explained", "The luxury brand iceberg explained"],
+      "examples": [
+        "The AI iceberg explained",
+        "The luxury brand iceberg explained"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_019",
       "formula": "You're using {topic} wrong. Here's how to fix it.",
-      "category": ["tech", "all"],
+      "category": [
+        "tech",
+        "all"
+      ],
       "effectiveness": 84,
-      "examples": ["You're using AI wrong. Here's how to fix it.", "You're using this app wrong. Here's how to fix it."],
+      "examples": [
+        "You're using AI wrong. Here's how to fix it.",
+        "You're using this app wrong. Here's how to fix it."
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_020",
       "formula": "This {topic} gave me chills",
-      "category": ["emotional", "news"],
+      "category": [
+        "emotional",
+        "news"
+      ],
       "effectiveness": 75,
-      "examples": ["This story gave me chills", "This moment gave me chills"],
+      "examples": [
+        "This story gave me chills",
+        "This moment gave me chills"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_021",
       "formula": "Like and subscribe if {topic} blew your mind",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 72,
-      "examples": ["Like and subscribe if this AI blew your mind", "Like and subscribe if this fact blew your mind"],
+      "examples": [
+        "Like and subscribe if this AI blew your mind",
+        "Like and subscribe if this fact blew your mind"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_022",
       "formula": "Watch till the end for {topic}",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 74,
-      "examples": ["Watch till the end for the plot twist", "Watch till the end for the reveal"],
+      "examples": [
+        "Watch till the end for the plot twist",
+        "Watch till the end for the reveal"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_023",
       "formula": "The {topic} era is here and I'm here for it",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 76,
-      "examples": ["The AI era is here and I'm here for it", "The comeback era is here and I'm here for it"],
+      "examples": [
+        "The AI era is here and I'm here for it",
+        "The comeback era is here and I'm here for it"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_024",
       "formula": "No one prepared me for {topic}",
-      "category": ["emotional", "absurd"],
+      "category": [
+        "emotional",
+        "absurd"
+      ],
       "effectiveness": 73,
-      "examples": ["No one prepared me for this moment", "No one prepared me for this reality"],
+      "examples": [
+        "No one prepared me for this moment",
+        "No one prepared me for this reality"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_025",
       "formula": "{topic} is living rent free in my head",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 71,
-      "examples": ["This song is living rent free in my head", "This moment is living rent free in my head"],
+      "examples": [
+        "This song is living rent free in my head",
+        "This moment is living rent free in my head"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_026",
       "formula": "The way {topic} understood the assignment",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 70,
-      "examples": ["The way this AI understood the assignment", "The way this brand understood the assignment"],
+      "examples": [
+        "The way this AI understood the assignment",
+        "The way this brand understood the assignment"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_027",
       "formula": "This is my Roman Empire: {topic}",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 69,
-      "examples": ["This is my Roman Empire: this tech moment", "This is my Roman Empire: this memory"],
+      "examples": [
+        "This is my Roman Empire: this tech moment",
+        "This is my Roman Empire: this memory"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_028",
       "formula": "{topic} ate and left no crumbs",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 68,
-      "examples": ["This performance ate and left no crumbs", "This design ate and left no crumbs"],
+      "examples": [
+        "This performance ate and left no crumbs",
+        "This design ate and left no crumbs"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_029",
       "formula": "Not {topic} being my new personality trait",
-      "category": ["absurd", "emotional"],
+      "category": [
+        "absurd",
+        "emotional"
+      ],
       "effectiveness": 67,
-      "examples": ["Not this show being my new personality trait", "Not this trend being my new personality trait"],
+      "examples": [
+        "Not this show being my new personality trait",
+        "Not this trend being my new personality trait"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_030",
       "formula": "When {topic} gives main character energy",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 66,
-      "examples": ["When this person gives main character energy", "When this moment gives main character energy"],
+      "examples": [
+        "When this person gives main character energy",
+        "When this moment gives main character energy"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_031",
       "formula": "{topic} is very demure, very mindful",
-      "category": ["absurd", "luxury"],
+      "category": [
+        "absurd",
+        "luxury"
+      ],
       "effectiveness": 65,
-      "examples": ["This aesthetic is very demure, very mindful", "This approach is very demure, very mindful"],
+      "examples": [
+        "This aesthetic is very demure, very mindful",
+        "This approach is very demure, very mindful"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_032",
       "formula": "Don't skip this: {topic} explained in 60 seconds",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 80,
-      "examples": ["Don't skip this: AI explained in 60 seconds", "Don't skip this: this news explained in 60 seconds"],
+      "examples": [
+        "Don't skip this: AI explained in 60 seconds",
+        "Don't skip this: this news explained in 60 seconds"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_033",
       "formula": "Smash that like button if {topic} is your vibe",
-      "category": ["all"],
+      "category": [
+        "all"
+      ],
       "effectiveness": 64,
-      "examples": ["Smash that like button if this is your vibe", "Smash that like button if you relate"],
+      "examples": [
+        "Smash that like button if this is your vibe",
+        "Smash that like button if you relate"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_034",
       "formula": "The {topic} plot twist no one saw coming",
-      "category": ["news", "emotional"],
+      "category": [
+        "news",
+        "emotional"
+      ],
       "effectiveness": 82,
-      "examples": ["The election plot twist no one saw coming", "The tech announcement plot twist no one saw coming"],
+      "examples": [
+        "The election plot twist no one saw coming",
+        "The tech announcement plot twist no one saw coming"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_035",
       "formula": "{topic} just went from 0 to 100 real quick",
-      "category": ["news", "absurd"],
+      "category": [
+        "news",
+        "absurd"
+      ],
       "effectiveness": 78,
-      "examples": ["This situation just went from 0 to 100 real quick", "This trend just went from 0 to 100 real quick"],
+      "examples": [
+        "This situation just went from 0 to 100 real quick",
+        "This trend just went from 0 to 100 real quick"
+      ],
       "source": "viral-research-2026",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_036",
       "formula": "POV: {topic} in your first ranked match",
-      "category": ["gaming"],
+      "category": [
+        "gaming"
+      ],
       "effectiveness": 82,
-      "examples": ["POV: Valorant patch in your first ranked match"],
+      "examples": [
+        "POV: Valorant patch in your first ranked match"
+      ],
       "source": "Gaming TikTok trends",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_037",
       "formula": "The {topic} play that ended careers",
-      "category": ["gaming"],
+      "category": [
+        "gaming"
+      ],
       "effectiveness": 78,
-      "examples": ["The CS2 clutch play that ended careers"],
+      "examples": [
+        "The CS2 clutch play that ended careers"
+      ],
       "source": "Gaming clips culture",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_038",
       "formula": "Day 1 vs Day 90 of {topic}. The glow up is real.",
-      "category": ["fitness"],
+      "category": [
+        "fitness"
+      ],
       "effectiveness": 88,
-      "examples": ["Day 1 vs Day 90 of calisthenics. The glow up is real."],
+      "examples": [
+        "Day 1 vs Day 90 of calisthenics. The glow up is real."
+      ],
       "source": "Fitness transformation content",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_039",
       "formula": "If you skip {topic} you are not serious about gains",
-      "category": ["fitness"],
+      "category": [
+        "fitness"
+      ],
       "effectiveness": 75,
-      "examples": ["If you skip leg day you are not serious about gains"],
+      "examples": [
+        "If you skip leg day you are not serious about gains"
+      ],
       "source": "Gym culture TikTok",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_040",
       "formula": "This {topic} recipe just changed my whole life",
-      "category": ["food"],
+      "category": [
+        "food"
+      ],
       "effectiveness": 85,
-      "examples": ["This pasta recipe just changed my whole life"],
+      "examples": [
+        "This pasta recipe just changed my whole life"
+      ],
       "source": "Food TikTok",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_041",
       "formula": "If Gordon Ramsay saw this {topic} he would cry",
-      "category": ["food"],
+      "category": [
+        "food"
+      ],
       "effectiveness": 80,
-      "examples": ["If Gordon Ramsay saw this steak he would cry"],
+      "examples": [
+        "If Gordon Ramsay saw this steak he would cry"
+      ],
       "source": "Food review culture",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_042",
       "formula": "{topic} is literally free money and nobody is paying attention",
-      "category": ["finance"],
+      "category": [
+        "finance"
+      ],
       "effectiveness": 90,
-      "examples": ["High yield savings is literally free money and nobody is paying attention"],
+      "examples": [
+        "High yield savings is literally free money and nobody is paying attention"
+      ],
       "source": "FinTok trends",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_043",
       "formula": "The {topic} strategy that turned $100 into passive income",
-      "category": ["finance"],
+      "category": [
+        "finance"
+      ],
       "effectiveness": 86,
-      "examples": ["The dividend strategy that turned $100 into passive income"],
+      "examples": [
+        "The dividend strategy that turned $100 into passive income"
+      ],
       "source": "Finance YouTube Shorts",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_044",
       "formula": "The way {topic} just gave me chills. Put this on repeat.",
-      "category": ["music"],
+      "category": [
+        "music"
+      ],
       "effectiveness": 83,
-      "examples": ["The way this chorus just gave me chills. Put this on repeat."],
+      "examples": [
+        "The way this chorus just gave me chills. Put this on repeat."
+      ],
       "source": "Music TikTok",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_045",
       "formula": "{topic} is the song of 2026 and nobody can change my mind",
-      "category": ["music"],
+      "category": [
+        "music"
+      ],
       "effectiveness": 77,
-      "examples": ["This track is the song of 2026 and nobody can change my mind"],
+      "examples": [
+        "This track is the song of 2026 and nobody can change my mind"
+      ],
       "source": "Music discovery trends",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_046",
       "formula": "The {topic} red flag nobody talks about in relationships",
-      "category": ["relationships"],
+      "category": [
+        "relationships"
+      ],
       "effectiveness": 87,
-      "examples": ["The texting red flag nobody talks about in relationships"],
+      "examples": [
+        "The texting red flag nobody talks about in relationships"
+      ],
       "source": "Relationship TikTok",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "id": "hook_047",
       "formula": "POV: {topic} with your person and everything just makes sense",
-      "category": ["relationships"],
+      "category": [
+        "relationships"
+      ],
       "effectiveness": 84,
-      "examples": ["POV: Sunday morning with your person and everything just makes sense"],
+      "examples": [
+        "POV: Sunday morning with your person and everything just makes sense"
+      ],
       "source": "Couple content trends",
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     }
   ],
@@ -476,392 +845,545 @@
       "term": "no cap",
       "usage": "Use to emphasize truth or seriousness: 'This AI is revolutionary, no cap'",
       "relevance": 95,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "on god",
       "usage": "Similar to no cap, emphasizes truth: 'This is the best tech I've seen, on god'",
       "relevance": 92,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "periodt",
       "usage": "End of discussion, final statement: 'This is the future, periodt'",
       "relevance": 88,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "ate",
       "usage": "Did something exceptionally well: 'This design ate'",
       "relevance": 90,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "slay",
       "usage": "To do something amazingly: 'This brand is slaying the game'",
       "relevance": 86,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "unhinged",
       "usage": "Wild, chaotic, unpredictable: 'This announcement was unhinged'",
       "relevance": 93,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "brainrot",
       "usage": "Content that's addictive but mindless: 'This is pure brainrot and I love it'",
       "relevance": 91,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "delulu",
       "usage": "Delusional but in a fun way: 'Am I delulu or is this actually genius?'",
       "relevance": 87,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "rizz",
       "usage": "Charisma or charm: 'This AI has rizz'",
       "relevance": 84,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "era",
       "usage": "A phase or period: 'We're in our tech era now'",
       "relevance": 89,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "ick",
       "usage": "Something that turns you off: 'This UI gives me the ick'",
       "relevance": 82,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "bop",
       "usage": "A great song or beat: 'This soundtrack is a bop'",
       "relevance": 80,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "hits different",
       "usage": "Has a unique or special impact: 'This moment hits different'",
       "relevance": 94,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "understood the assignment",
       "usage": "Did exactly what was needed: 'This brand understood the assignment'",
       "relevance": 85,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "main character",
       "usage": "Someone who stands out or is the focus: 'Main character energy right here'",
       "relevance": 83,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "roman empire",
       "usage": "Something you think about constantly: 'This is my roman empire'",
       "relevance": 81,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "girl dinner",
       "usage": "Random assortment of snacks as a meal: 'This content is girl dinner'",
       "relevance": 75,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "very demure",
       "usage": "Modest, classy, reserved: 'Very demure, very mindful approach'",
       "relevance": 78,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "smash that like",
       "usage": "Call to action for engagement: 'Smash that like button if you agree'",
       "relevance": 76,
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "drop a comment",
       "usage": "Encourage viewer interaction: 'Drop a comment with your thoughts'",
       "relevance": 74,
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "hit subscribe",
       "usage": "Call to subscribe: 'Hit subscribe for more content like this'",
       "relevance": 72,
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "don't skip this",
       "usage": "Create urgency: 'Don't skip this, it's important'",
       "relevance": 79,
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "watch till the end",
       "usage": "Keep viewers engaged: 'Watch till the end for the surprise'",
       "relevance": 77,
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "viral",
       "usage": "Something spreading widely: 'This just went viral'",
       "relevance": 96,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "blew up",
       "usage": "Became very popular suddenly: 'This video blew up overnight'",
       "relevance": 91,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "went crazy",
       "usage": "Became very popular or impressive: 'The internet went crazy over this'",
       "relevance": 88,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "cooked",
       "usage": "Did something really well: 'They really cooked with this one'",
       "relevance": 92,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "bussin",
       "usage": "Really good, delicious: 'This content is bussin'",
       "relevance": 85,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "fire",
       "usage": "Excellent, amazing: 'This edit is fire'",
       "relevance": 87,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "lowkey",
       "usage": "Somewhat, kind of: 'This is lowkey genius'",
       "relevance": 90,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "highkey",
       "usage": "Very much, obviously: 'This is highkey the best thing ever'",
       "relevance": 86,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "rent free",
       "usage": "Living in your mind constantly: 'This lives rent free in my head'",
       "relevance": 84,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "living in my head",
       "usage": "Can't stop thinking about it: 'This moment is living in my head'",
       "relevance": 82,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "drip",
       "usage": "Stylish outfit or appearance: 'Check out this luxury drip'",
       "relevance": 80,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "bet",
       "usage": "Agreement or confirmation: 'You want this? Bet.'",
       "relevance": 89,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "vibe check",
       "usage": "Assessing the mood or energy: 'Let's do a vibe check on this trend'",
       "relevance": 81,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "sheesh",
       "usage": "Expression of amazement: 'Sheesh, this is insane'",
       "relevance": 83,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "it's giving",
       "usage": "It has the vibe of: 'It's giving luxury, it's giving expensive'",
       "relevance": 88,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "the way",
       "usage": "Emphasize something notable: 'The way this video has me crying'",
       "relevance": 85,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "not me",
       "usage": "Admitting to something relatable: 'Not me watching this 10 times'",
       "relevance": 79,
-      "platforms": ["tiktok"],
+      "platforms": [
+        "tiktok"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "sent me",
       "usage": "Made you laugh hard: 'This absolutely sent me'",
       "relevance": 78,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "feral",
       "usage": "Wild, out of control behavior: 'The comments are going feral'",
       "relevance": 82,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "touch grass",
       "usage": "Go outside, disconnect: 'Time to touch grass after this'",
       "relevance": 77,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "chronically online",
       "usage": "Spending too much time on the internet: 'This is peak chronically online behavior'",
       "relevance": 84,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "locked in",
       "usage": "Fully focused and committed: 'I'm locked in on this project'",
       "relevance": 86,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "GG",
       "usage": "Good game — use at end of gaming content",
       "relevance": 85,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "clutch",
       "usage": "Making a crucial play under pressure",
       "relevance": 82,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "gains",
       "usage": "Muscle/fitness progress",
       "relevance": 80,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "PR",
       "usage": "Personal record at the gym",
       "relevance": 78,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "money shot",
       "usage": "The perfect food photography moment",
       "relevance": 75,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "passive income",
       "usage": "Money earned without active work",
       "relevance": 90,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "compound",
       "usage": "Compound interest/growth effect",
       "relevance": 82,
-      "platforms": ["youtube-shorts"],
+      "platforms": [
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "banger",
       "usage": "An exceptionally good song/track",
       "relevance": 86,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "slaps",
       "usage": "Music that sounds incredibly good",
       "relevance": 84,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "green flag",
       "usage": "Positive trait in a partner",
       "relevance": 88,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     },
     {
       "term": "the ick",
       "usage": "Something that suddenly turns you off",
       "relevance": 85,
-      "platforms": ["tiktok", "youtube-shorts"],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "addedAt": "2026-02-04T00:00:00.000Z"
     }
   ],
@@ -1346,8 +1868,16 @@
         "Deliver satisfying payoff or answer",
         "End with call-to-action"
       ],
-      "bestFor": ["news", "tech", "emotional", "all"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "news",
+        "tech",
+        "emotional",
+        "all"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 92,
       "examples": [
         "Hook: 'This AI can do WHAT?' → Tension: 'Watch what happens next' → Payoff: 'It just solved a 10-year problem'",
@@ -1365,8 +1895,16 @@
         "Explain what changed",
         "Encourage sharing/commenting"
       ],
-      "bestFor": ["tech", "emotional", "luxury", "all"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "tech",
+        "emotional",
+        "luxury",
+        "all"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 88,
       "examples": [
         "Old tech vs new tech side-by-side",
@@ -1385,8 +1923,13 @@
         "Save best for last as hook",
         "Recap or call-to-action"
       ],
-      "bestFor": ["all"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "all"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 85,
       "examples": [
         "'3 things about AI that will blow your mind'",
@@ -1405,8 +1948,16 @@
         "Share final thoughts or rating",
         "Ask viewers for their reaction"
       ],
-      "bestFor": ["news", "absurd", "emotional", "all"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "news",
+        "absurd",
+        "emotional",
+        "all"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 90,
       "examples": [
         "Reacting to breaking news announcement",
@@ -1425,8 +1976,15 @@
         "Resolve or deliver punchline",
         "Make it relatable/shareable"
       ],
-      "bestFor": ["absurd", "emotional", "cartoon", "all"],
-      "platforms": ["tiktok"],
+      "bestFor": [
+        "absurd",
+        "emotional",
+        "cartoon",
+        "all"
+      ],
+      "platforms": [
+        "tiktok"
+      ],
       "effectiveness": 86,
       "examples": [
         "'POV: You just discovered this tech hack'",
@@ -1445,8 +2003,15 @@
         "Return to dramatic moment",
         "Conclude with lesson or punchline"
       ],
-      "bestFor": ["news", "emotional", "absurd"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "news",
+        "emotional",
+        "absurd"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 87,
       "examples": [
         "Story of how this tech was created",
@@ -1465,8 +2030,16 @@
         "Reveal surprising winner or tie",
         "Ask viewers which they prefer"
       ],
-      "bestFor": ["tech", "luxury", "news", "all"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "tech",
+        "luxury",
+        "news",
+        "all"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 84,
       "examples": [
         "Old AI vs new AI capabilities",
@@ -1485,8 +2058,16 @@
         "Reveal final impressive result",
         "Share how to achieve it"
       ],
-      "bestFor": ["tech", "emotional", "cartoon", "all"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "tech",
+        "emotional",
+        "cartoon",
+        "all"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 89,
       "examples": [
         "Tech tutorial showing skill progression",
@@ -1505,8 +2086,15 @@
         "Reveal surprising answer",
         "Explain why it matters"
       ],
-      "bestFor": ["news", "tech", "absurd"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "news",
+        "tech",
+        "absurd"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 91,
       "examples": [
         "'Why is nobody talking about this feature?'",
@@ -1525,8 +2113,15 @@
         "Show final result",
         "Encourage trying and sharing"
       ],
-      "bestFor": ["tech", "luxury", "all"],
-      "platforms": ["tiktok", "youtube-shorts"],
+      "bestFor": [
+        "tech",
+        "luxury",
+        "all"
+      ],
+      "platforms": [
+        "tiktok",
+        "youtube-shorts"
+      ],
       "effectiveness": 83,
       "examples": [
         "Hidden AI feature most people don't know",
@@ -1537,7 +2132,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-02-04T00:00:00.000Z",
+    "lastUpdated": "2026-02-06T00:47:52.065Z",
     "version": 1,
     "totalLearningCycles": 0
   }

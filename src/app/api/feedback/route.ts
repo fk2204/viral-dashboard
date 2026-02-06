@@ -1,79 +1,52 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { recordPerformance } from '@/lib/learning/performance-tracker';
-import { Category } from '@/types';
+import { NextRequest, NextResponse } from "next/server";
+import { recordPerformance } from "@/lib/learning/performance-tracker";
+import { reflectOnPerformance } from "@/lib/learning/reflexion";
+import { validateFeedbackRequest } from "@/lib/validators";
+import { getConcept } from "@/lib/concept-cache";
+import { handleApiError, ERROR_CODES } from "@/lib/error-handler";
+import { withRateLimit } from "@/middleware/rate-limit";
+import { PerformanceFeedback } from "@/types";
 
-const VALID_CATEGORIES: Category[] = [
-  'news', 'absurd', 'luxury', 'emotional', 'tech', 'cartoon',
-  'gaming', 'fitness', 'food', 'finance', 'music', 'relationships',
-];
-
-const VALID_PLATFORMS = ['tiktok', 'youtube-shorts'] as const;
-
-export async function POST(request: NextRequest) {
+async function handlePost(request: NextRequest) {
   try {
     const body = await request.json();
 
-    // Validate required fields
-    const { conceptId, conceptTitle, category, platform, metrics, variantId } = body;
+    // Validate request with comprehensive checks
+    const validation = validateFeedbackRequest(body);
 
-    if (!conceptId || typeof conceptId !== 'string') {
+    if (!validation.valid) {
       return NextResponse.json(
-        { error: 'Missing or invalid conceptId' },
+        {
+          error: "Validation failed",
+          details: validation.errors,
+          code: ERROR_CODES.VALIDATION_FAILED,
+        },
         { status: 400 }
       );
     }
 
-    if (!conceptTitle || typeof conceptTitle !== 'string') {
-      return NextResponse.json(
-        { error: 'Missing or invalid conceptTitle' },
-        { status: 400 }
-      );
-    }
+    const { conceptId, category, platform, metrics } = validation.data!;
 
-    if (!VALID_CATEGORIES.includes(category)) {
-      return NextResponse.json(
-        { error: `Invalid category. Must be one of: ${VALID_CATEGORIES.join(', ')}` },
-        { status: 400 }
-      );
-    }
+    // Retrieve concept from cache to get title
+    const concept = getConcept(conceptId);
+    const conceptTitle = concept?.title || "Unknown Concept";
 
-    if (!VALID_PLATFORMS.includes(platform)) {
-      return NextResponse.json(
-        { error: `Invalid platform. Must be one of: ${VALID_PLATFORMS.join(', ')}` },
-        { status: 400 }
-      );
-    }
-
-    if (!metrics || typeof metrics !== 'object') {
-      return NextResponse.json(
-        { error: 'Missing metrics object' },
-        { status: 400 }
-      );
-    }
-
-    const { views, likes, shares, comments } = metrics;
-
-    if (typeof views !== 'number' || views < 0) {
-      return NextResponse.json({ error: 'views must be a non-negative number' }, { status: 400 });
-    }
-    if (typeof likes !== 'number' || likes < 0) {
-      return NextResponse.json({ error: 'likes must be a non-negative number' }, { status: 400 });
-    }
-    if (typeof shares !== 'number' || shares < 0) {
-      return NextResponse.json({ error: 'shares must be a non-negative number' }, { status: 400 });
-    }
-    if (typeof comments !== 'number' || comments < 0) {
-      return NextResponse.json({ error: 'comments must be a non-negative number' }, { status: 400 });
-    }
-
-    // Record the performance feedback
-    const entry = recordPerformance({
+    // Build feedback entry
+    const feedbackData = {
       conceptId,
       conceptTitle,
       category,
       platform,
-      metrics: { views, likes, shares, comments },
-      ...(variantId ? { variantId } : {}),
+      metrics,
+    };
+
+    // Record the performance feedback
+    const entry = recordPerformance(feedbackData);
+
+    // Auto-trigger reflexion analysis (async, don't block response)
+    triggerReflexionAnalysis(conceptId, entry).catch((err) => {
+      console.error("Reflexion auto-trigger failed:", err);
+      // Don't fail the request if reflexion fails
     });
 
     return NextResponse.json({
@@ -86,17 +59,51 @@ export async function POST(request: NextRequest) {
       message: `Performance recorded: ${entry.engagementRate}% engagement rate`,
     });
   } catch (error) {
-    console.error('Feedback API error:', error);
-    return NextResponse.json(
-      { error: 'Failed to process feedback' },
-      { status: 500 }
+    const { error: errorMessage, statusCode, code } = handleApiError(
+      error,
+      "Failed to process feedback",
+      { endpoint: "/api/feedback", method: "POST" }
     );
+
+    return NextResponse.json({ error: errorMessage, code }, { status: statusCode });
   }
 }
 
-export async function GET() {
+/**
+ * Helper: Trigger reflexion analysis asynchronously
+ */
+async function triggerReflexionAnalysis(
+  conceptId: string,
+  feedback: PerformanceFeedback
+): Promise<void> {
   try {
-    const { getRecentFeedback, getPlatformComparison, getTopPerformingCategories } = await import('@/lib/learning/performance-tracker');
+    // Retrieve concept from server-side cache
+    const concept = getConcept(conceptId);
+
+    if (!concept) {
+      console.log(`⏭️ Reflexion skipped - concept not in cache (>48h old or not generated)`);
+      return;
+    }
+
+    // Run reflexion analysis
+    const critique = await reflectOnPerformance(concept, feedback);
+
+    console.log(`✅ Reflexion complete for ${conceptId}`);
+    console.log(`   Confidence: ${critique.confidenceLevel}`);
+    console.log(`   Predicted: ${critique.performanceGap.predictedVirality.toFixed(1)}%, Actual: ${critique.performanceGap.actualViralityScore.toFixed(1)}%`);
+    console.log(`   Gap: ${critique.performanceGap.gap.toFixed(1)}%`);
+  } catch (error) {
+    console.error("Reflexion analysis error:", error);
+  }
+}
+
+async function handleGet(req: NextRequest) {
+  try {
+    const {
+      getRecentFeedback,
+      getPlatformComparison,
+      getTopPerformingCategories,
+    } = await import("@/lib/learning/performance-tracker");
 
     const recent = getRecentFeedback(10);
     const platformComparison = getPlatformComparison();
@@ -108,10 +115,16 @@ export async function GET() {
       topCategories,
     });
   } catch (error) {
-    console.error('Feedback GET error:', error);
-    return NextResponse.json(
-      { error: 'Failed to retrieve feedback data' },
-      { status: 500 }
+    const { error: errorMessage, statusCode, code } = handleApiError(
+      error,
+      "Failed to retrieve feedback data",
+      { endpoint: "/api/feedback", method: "GET" }
     );
+
+    return NextResponse.json({ error: errorMessage, code }, { status: statusCode });
   }
 }
+
+// Apply rate limiting: 10 requests per 10 seconds
+export const POST = withRateLimit(handlePost);
+export const GET = withRateLimit(handleGet);
