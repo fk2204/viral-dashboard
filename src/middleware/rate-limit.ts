@@ -1,10 +1,14 @@
 /**
  * Rate limit middleware for API routes
+ *
+ * Supports both IP-based and user-based rate limiting
  */
 
 import { NextRequest, NextResponse } from "next/server";
 import { checkRateLimit } from "@/lib/rate-limit";
 import { createRateLimitError } from "@/lib/error-handler";
+import { auth } from "@clerk/nextjs/server";
+import { validateApiKey } from "@/lib/auth";
 
 interface RateLimitConfig {
   limit: number;
@@ -55,19 +59,45 @@ export function withRateLimit(
 
 /**
  * Get identifier for rate limiting
+ *
+ * Priority: User ID > API Key > IP Address
  */
-function getIdentifier(req: NextRequest): string {
-  // Try to get IP from headers (for proxy/load balancer scenarios)
+async function getIdentifier(req: NextRequest): Promise<string> {
+  // 1. Try Clerk authentication (user session)
+  try {
+    const { userId } = await auth();
+    if (userId) {
+      return `user:${userId}`;
+    }
+  } catch (error) {
+    // Not authenticated via Clerk
+  }
+
+  // 2. Try API key authentication
+  const authHeader = req.headers.get("authorization");
+  if (authHeader?.startsWith("Bearer ")) {
+    const apiKey = authHeader.substring(7);
+    try {
+      const user = await validateApiKey(apiKey);
+      if (user) {
+        return `apikey:${user.userId}`;
+      }
+    } catch (error) {
+      // Invalid API key, fall through to IP-based rate limiting
+    }
+  }
+
+  // 3. Fallback to IP-based rate limiting
   const forwarded = req.headers.get("x-forwarded-for");
   if (forwarded) {
-    return forwarded.split(",")[0].trim();
+    return `ip:${forwarded.split(",")[0].trim()}`;
   }
 
   const realIp = req.headers.get("x-real-ip");
   if (realIp) {
-    return realIp;
+    return `ip:${realIp}`;
   }
 
-  // Fallback to a generic identifier
-  return "anonymous";
+  // Last resort
+  return "ip:anonymous";
 }
